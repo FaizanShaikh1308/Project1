@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern ecommerce fashion website">
     <title>E Commerce</title>
     <script src="https://kit.fontawesome.com/6e7778f8be.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -32,7 +33,7 @@
         <h2>Super value deals</h2>
         <h1>On all products</h1>
         <p>Save more with coupons & upto 70% off! </p>
-        <button>Shop Now</button>
+        <button id="shopNowBtn" class="normal">Shop Now</button>
     </section>
     <section id="feature" class="section-p1">
         <div class="fe-box">
@@ -65,132 +66,196 @@
         <p>Summer Collection New Modern Design</p>
         <div class="pro-container">
             <div class="pro">
-                <img src="images/product/f1.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f1.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f1.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f2.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f2.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f2.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f3.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f3.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f4.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f4.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f4.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f5.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f5.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f5.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f6.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f6.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f6.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f7.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f7.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f7.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
             <div class="pro">
-                <img src="images/product/f8.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <a href="shop.html?product=1" class="product-link">
+                    <img src="images/product/f8.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
                     </div>
-                    <h4>$30</h4>
-                </div>
-                <a href="#" class="cart-bnt"><i class="fa-solid fa-cart-shopping"></i></a>
+                </a>  
+                <a href="#" class="cart-bnt" 
+                    data-id="1" 
+                    data-name="Cartoon Astronaut T-Shirts"
+                    data-price="999"
+                    data-img="images/products/f8.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -367,7 +432,7 @@
             <p>Get E-mail update about our latest shop and <span>special offers.</span></p>
         </div>
         <div class="form">
-            <input type="text" placeholder="Your email address">
+            <input type="text" placeholder="Your email address" required>
             <button class="normal">Sign Up</button>
         </div>
     </section>
